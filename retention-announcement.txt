@@ -1,0 +1,23 @@
+Subject: Updated Records Retention Guide — Now Available
+
+Hello team,
+
+We’ve published an updated Records Retention Guide to help you manage records consistently and comply with our retention policies. Key changes in this version:
+- Clarified retention periods for email, SharePoint files, and Teams chat
+- New guidance on personal devices and external accounts
+- Simplified disposition workflow and approval steps
+- Updated contact list for records and legal questions
+
+What you need to do:
+1. Read the updated guide (link will be published to the intranet shortly).
+2. Apply the updated retention schedules to records you manage.
+3. Contact records-retention@contoso.com if you have questions or need help applying the rules.
+
+Support and training:
+- Drop-in Q&A sessions will be scheduled next week — details to follow.
+- A quick reference cheat sheet is attached to the guide.
+
+Thank you for helping keep our information governance current.
+
+Best,
+Records Management Team
