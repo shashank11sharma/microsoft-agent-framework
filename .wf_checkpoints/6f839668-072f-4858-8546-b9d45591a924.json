@@ -1,0 +1,50 @@
+{
+  "workflow_name": "Sequential",
+  "graph_signature_hash": "099ca590aed350efa423db066db965f60fc78fdb7a5175c65e0b52005d435a96",
+  "checkpoint_id": "6f839668-072f-4858-8546-b9d45591a924",
+  "previous_checkpoint_id": null,
+  "timestamp": "2026-09-29T05:27:51.638910+00:00",
+  "messages": {
+    "internal:input-conversation": [
+      {
+        "__pickled__": "gAWVRAEAAAAAAACMKmFnZW50X2ZyYW1ld29yay5fd29ya2Zsb3dzLl9ydW5uZXJfY29udGV4dJSMD1dvcmtmbG93TWVzc2FnZZSTlCmBlH2UKIwEZGF0YZSMOVByYWN0aWNhbCB3YXlzIHRvIG9yZ2FuaXplIGEgc2hhcmVkIHRlYW0gZG9jdW1lbnQgbGlicmFyeZSMCXNvdXJjZV9pZJSMG2ludGVybmFsOmlucHV0LWNvbnZlcnNhdGlvbpSMCXRhcmdldF9pZJSMEmlucHV0LWNvbnZlcnNhdGlvbpSMBHR5cGWUaACMC01lc3NhZ2VUeXBllJOUjAhzdGFuZGFyZJSFlFKUjA50cmFjZV9jb250ZXh0c5ROjA9zb3VyY2Vfc3Bhbl9pZHOUTowbb3JpZ2luYWxfcmVxdWVzdF9pbmZvX2V2ZW50lE51Yi4=",
+        "__type__": "agent_framework._workflows._runner_context:WorkflowMessage"
+      }
+    ]
+  },
+  "state": {
+    "_workflow_run_kwargs": {},
+    "_resolved_workflow_run_kwargs": {},
+    "_executor_state": {
+      "input-conversation": {},
+      "LibraryAnalyst": {
+        "cache": [],
+        "full_conversation": [],
+        "agent_session": {
+          "type": "session",
+          "session_id": "8be7f606-a610-4931-b2c2-983b14606b04",
+          "service_session_id": null,
+          "state": {}
+        },
+        "pending_agent_requests": {},
+        "pending_responses_to_agent": []
+      },
+      "PublishingWriter": {
+        "cache": [],
+        "full_conversation": [],
+        "agent_session": {
+          "type": "session",
+          "session_id": "76b7c1e2-aca6-4a07-8e18-2f83a68f69c9",
+          "service_session_id": null,
+          "state": {}
+        },
+        "pending_agent_requests": {},
+        "pending_responses_to_agent": []
+      }
+    }
+  },
+  "pending_request_info_events": {},
+  "iteration_count": 0,
+  "metadata": {},
+  "version": "1.0"
+}

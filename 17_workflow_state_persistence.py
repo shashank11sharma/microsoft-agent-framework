@@ -25,14 +25,17 @@ CHECKPOINT_PATH = ".wf_checkpoints"  # multi-agent workflow checkpoint persisten
 researcher = Agent(
     client=client,
     name="LibraryAnalyst",
-    instructions="You analyze SharePoint library content and return 5 concise findings about ownership, metadata, and review status.",
+    instructions=(
+        "You are a shared-document organization analyst. Given a general topic, return 5 concise, "
+        "practical suggestions about clear titles, folders, owners, and update dates. Keep them neutral and general."
+    ),
 )
 writer = Agent(
     client=client,
     name="PublishingWriter",
     instructions=(
-        "You are a SharePoint knowledge-base writer. Turn the library findings into a "
-        "150-word employee-facing publishing summary. Return only the content."
+        "You are a knowledge-base writer. Turn the suggestions into a concise, neutral guide for organizing shared team documents. "
+        "Use only the information provided and do not claim access to real files or services. Return only the guide."
     ),
 )
 
@@ -43,7 +46,7 @@ workflow = SequentialBuilder(
         researcher,
         writer,
     ],
-    intermediate_outputs=True,
+    output_from="all",
     checkpoint_storage=checkpoint_storage,
 ).build()
 
@@ -54,7 +57,7 @@ async def demo_workflow_checkpoints():
     print("🗂️  WORKFLOW CHECKPOINTS — FileCheckpointStorage")
     print("=" * 60)
 
-    topic = "Policy Hub library readiness: retention metadata, document ownership, and review status"
+    topic = "Practical ways to organize a shared team document library"
     print(f"\n🚀 Running pipeline for: '{topic}'")
 
     result = await workflow.run(topic)

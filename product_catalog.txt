@@ -1,0 +1,6 @@
+
+        SHAREPOINT CONTENT CATALOG Contoso
+        - Retention Guide: Policy Hub | Owner: Records Team | Review: 2026-10-01
+        - Project Atlas Plan: Projects | Owner: Atlas PMO | Status: In review
+        - Brand Assets: Communications | Owner: Marketing | Status: Approved
+        

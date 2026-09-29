@@ -48,7 +48,7 @@ workflow = SequentialBuilder(
         summarizer,
         teams_announcement_writer,
     ],
-    intermediate_outputs=True,
+    output_from="all",
 ).build()
 
 

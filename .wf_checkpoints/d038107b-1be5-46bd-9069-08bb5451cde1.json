@@ -1,0 +1,50 @@
+{
+  "workflow_name": "Sequential",
+  "graph_signature_hash": "099ca590aed350efa423db066db965f60fc78fdb7a5175c65e0b52005d435a96",
+  "checkpoint_id": "d038107b-1be5-46bd-9069-08bb5451cde1",
+  "previous_checkpoint_id": "5db6a239-ee0d-4d27-92dc-51f5d6448979",
+  "timestamp": "2026-09-29T05:22:29.805491+00:00",
+  "messages": {
+    "input-conversation": [
+      {
+        "__pickled__": "gAWVyQMAAAAAAACMKmFnZW50X2ZyYW1ld29yay5fd29ya2Zsb3dzLl9ydW5uZXJfY29udGV4dJSMD1dvcmtmbG93TWVzc2FnZZSTlCmBlH2UKIwEZGF0YZRdlIwWYWdlbnRfZnJhbWV3b3JrLl90eXBlc5SMB01lc3NhZ2WUk5QpgZR9lCiMBHJvbGWUjAR1c2VylIwIY29udGVudHOUXZRoB4wHQ29udGVudJSTlCmBlH2UKIwEdHlwZZSMBHRleHSUjAthbm5vdGF0aW9uc5ROjBVhZGRpdGlvbmFsX3Byb3BlcnRpZXOUfZRoFYxXUG9saWN5IEh1YiBsaWJyYXJ5IHJlYWRpbmVzczogcmV0ZW50aW9uIG1ldGFkYXRhLCBkb2N1bWVudCBvd25lcnNoaXAsIGFuZCByZXZpZXcgc3RhdHVzlIwOcHJvdGVjdGVkX2RhdGGUTowDdXJplE6MCm1lZGlhX3R5cGWUTowHbWVzc2FnZZROjAplcnJvcl9jb2RllE6MDWVycm9yX2RldGFpbHOUTowNdXNhZ2VfZGV0YWlsc5ROjAdjYWxsX2lklE6MBG5hbWWUTowJYXJndW1lbnRzlE6MCWV4Y2VwdGlvbpROjBJpbmZvcm1hdGlvbmFsX29ubHmUiYwGcmVzdWx0lE6MBWl0ZW1zlE6MB2ZpbGVfaWSUTowPdmVjdG9yX3N0b3JlX2lklE6MBmlucHV0c5ROjAdvdXRwdXRzlE6MCGltYWdlX2lklE6MCGNvbW1hbmRzlE6MCnRpbWVvdXRfbXOUTowRbWF4X291dHB1dF9sZW5ndGiUTowGc3RhdHVzlE6MBnN0ZG91dJROjAZzdGRlcnKUTowJZXhpdF9jb2RllE6MCXRpbWVkX291dJROjAl0b29sX25hbWWUTowLc2VydmVyX25hbWWUTowGb3V0cHV0lE6MAmlklE6MDWZ1bmN0aW9uX2NhbGyUTowSdXNlcl9pbnB1dF9yZXF1ZXN0lE6MCGFwcHJvdmVklE6MDGNvbnNlbnRfbGlua5ROdWJhjAthdXRob3JfbmFtZZROjAptZXNzYWdlX2lklE5oF32UdWJhjAlzb3VyY2VfaWSUjBJpbnB1dC1jb252ZXJzYXRpb26UjAl0YXJnZXRfaWSUTmgUaACMC01lc3NhZ2VUeXBllJOUjAhzdGFuZGFyZJSFlFKUjA50cmFjZV9jb250ZXh0c5ROjA9zb3VyY2Vfc3Bhbl9pZHOUTowbb3JpZ2luYWxfcmVxdWVzdF9pbmZvX2V2ZW50lE51Yi4=",
+        "__type__": "agent_framework._workflows._runner_context:WorkflowMessage"
+      }
+    ]
+  },
+  "state": {
+    "_workflow_run_kwargs": {},
+    "_resolved_workflow_run_kwargs": {},
+    "_executor_state": {
+      "input-conversation": {},
+      "LibraryAnalyst": {
+        "cache": [],
+        "full_conversation": [],
+        "agent_session": {
+          "type": "session",
+          "session_id": "84960e5a-001b-45c7-979c-3fe9174d3cd2",
+          "service_session_id": null,
+          "state": {}
+        },
+        "pending_agent_requests": {},
+        "pending_responses_to_agent": []
+      },
+      "PublishingWriter": {
+        "cache": [],
+        "full_conversation": [],
+        "agent_session": {
+          "type": "session",
+          "session_id": "00db34a5-bd03-4ae5-8ecb-847f8446d5ac",
+          "service_session_id": null,
+          "state": {}
+        },
+        "pending_agent_requests": {},
+        "pending_responses_to_agent": []
+      }
+    }
+  },
+  "pending_request_info_events": {},
+  "iteration_count": 1,
+  "metadata": {},
+  "version": "1.0"
+}
